@@ -22,6 +22,19 @@
 ---
 </div>
 
+## 👥 Team Members & Roles
+
+| Member Name | Role & Specialization | Subsystem & Key Responsibilities |
+| :--- | :--- | :--- |
+| 👑 **Jay Vishwakarma** *(Leader)* | **Hardware Lead** | Overall project lead, galvanic isolation board design, 2N3904 + PC817 PTT switching circuit & hardware bench validation |
+| 📡 **Ayush Thayyil** | **Communication Lead** | Radio-over-IP (RoIP) audio pipeline, 48 kHz mono frame engine, UDP streaming & network resilience protocols |
+| 📊 **Ayushman Swain** | **PPT Lead** | Project presentation decks, technical diagrams, architectural flowcharts & documentation assets |
+| 🔬 **Nishita Sarma** | **R&D Lead** | Disaster communication literature survey, hydrological telemetry research & CWC 4-tier protocol integration |
+| 🧠 **Anurag Sharma** | **AI/ML Lead** | FloodSense Bi-LSTM & Random Forest hydrological ML engine, model training pipelines & real-time stage inference |
+| 📐 **Ankit Yadav** | **CAD Modelling Lead** | 3D mechanical enclosure modeling, Leaf Node CAD preview, Raspberry Pi + PCB mounting chassis & STEP/DWG exports |
+
+---
+
 ## 📌 Executive Summary
 
 During major flood disasters (such as the devastating Barak Valley / Silchar floods), commercial cellular base stations and 5G infrastructure are routinely submerged, overloaded, or knocked offline. First responders in the field rely on standard handheld VHF/UHF walkie-talkies having an RF line-of-sight range of only **3 to 5 km**, while district **Emergency Operations Centres (EOCs)** are situated tens of kilometres away.
@@ -314,28 +327,10 @@ python scripts/train_flood_models.py
 | **Prototyping / Enclosure**| Custom 3D Printed Chassis / PCB | ₹470 | Mechanical housing & mounting |
 | **TOTAL (Interface Subsystem)** | — | **~₹1,200** | *(Excludes Raspberry Pi & Radio)* |
 
----
+## 💡 Hackathon & Institution Credits
 
-## 💡 Team & Hackathon Credits
-
-[![Team Aether_100 Members & Leads](./image%20copy.png)](./image%20copy.png)
-
-### 👥 Team Members & Roles
-
-| Member Name | Role & Specialization | Subsystem & Key Responsibilities |
-| :--- | :--- | :--- |
-| 👑 **Jay Vishwakarma** *(Leader)* | **Hardware Lead** | Overall project lead, galvanic isolation board design, 2N3904 + PC817 PTT switching circuit & hardware bench validation |
-| 📡 **Ayush Thayyil** | **Communication Lead** | Radio-over-IP (RoIP) audio pipeline, 48 kHz mono frame engine, UDP streaming & network resilience protocols |
-| 📊 **Ayushman Swain** | **PPT Lead** | Project presentation decks, technical diagrams, architectural flowcharts & documentation assets |
-| 🔬 **Nishita Sarma** | **R&D Lead** | Disaster communication literature survey, hydrological telemetry research & CWC 4-tier protocol integration |
-| 🧠 **Anurag Sharma** | **AI/ML Lead** | FloodSense Bi-LSTM & Random Forest hydrological ML engine, model training pipelines & real-time stage inference |
-| 📐 **Ankit Yadav** | **CAD Modelling Lead** | 3D mechanical enclosure modeling, Leaf Node CAD preview, Raspberry Pi + PCB mounting chassis & STEP/DWG exports |
-
----
-
-### 🏛️ Institution & Mentorship
 * **Event**: Smart India Hackathon (SIH) 2026
-* **Problem Statement**: `SIH26223` (Disaster Management / Hardware)
+* **Problem Statement**: `SIH26223` (Disaster Management / Hardware + AI Software)
 * **Team**: **Team Aether_100**
 * **Team ID**: `NITS_100`
 * **Institution**: National Institute of Technology Silchar (NIT Silchar)

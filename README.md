@@ -17,8 +17,7 @@
 
 <br/>
 
-[📐 CAD & 3D Hardware Model (Google Drive)](https://drive.google.com/file/d/1Ka_F5BRAXkGf56-jew4U-lu_tEWLgjRq/view) • [📖 Technical Documentation (Markdown)](./DOCUMENTATION.md) • [📄 Technical Documentation (PDF)](./AetherBridge%20—%20Technical%20Documentation%20(Aether_100,%20SIH%202026)%20(1).pdf) • [⚡ Live EOC Operations Console](#-live-eoc-operations-console--ui) • [🛠️ Hardware Circuit](#-hardware-circuit--electrical-design)
-
+[📐 CAD & 3D Hardware Model (Google Drive)](https://drive.google.com/file/d/1Ka_F5BRAXkGf56-jew4U-lu_tEWLgjRq/view) • [📄 Technical Documentation (PDF)](./AetherBridge%20—%20Technical%20Documentation%20(Aether_100,%20SIH%202026)%20(1).pdf) • [⚡ Live EOC Operations Console](team-aether.vercel.app) 
 ---
 </div>
 

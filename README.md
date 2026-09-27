@@ -17,7 +17,7 @@
 
 <br/>
 
-[📐 CAD & 3D Hardware Model (Google Drive)](https://drive.google.com/file/d/1Ka_F5BRAXkGf56-jew4U-lu_tEWLgjRq/view) • [📄 Technical Documentation PDF](./AetherBridge%20—%20Technical%20Documentation%20(Aether_100,%20SIH%202026).pdf) • [⚡ Live EOC Operations Console](#-live-eoc-operations-console--ui) • [🛠️ Hardware Circuit](#-hardware-circuit--electrical-design)
+[📐 CAD & 3D Hardware Model (Google Drive)](https://drive.google.com/file/d/1Ka_F5BRAXkGf56-jew4U-lu_tEWLgjRq/view) • [📖 Technical Documentation (Markdown)](./DOCUMENTATION.md) • [📄 Technical Documentation (PDF)](./AetherBridge%20—%20Technical%20Documentation%20(Aether_100,%20SIH%202026)%20(1).pdf) • [⚡ Live EOC Operations Console](#-live-eoc-operations-console--ui) • [🛠️ Hardware Circuit](#-hardware-circuit--electrical-design)
 
 ---
 </div>
@@ -39,8 +39,9 @@ Commercial Radio-over-IP (RoIP) appliances are expensive proprietary imports cos
 | Resource | Description | Direct Link |
 | :--- | :--- | :--- |
 | 🖼️ **System Poster & Hardware Overview** | High-resolution architectural diagram, leaf node CAD preview & bench prototype setup | [**View System Infographic**](./image.png) |
+| 📖 **Technical Documentation (Full Specs)** | Complete Markdown engineering documentation covering circuit schematics, ground-loop math, optocoupler saturation, and RF bench test results | [**Read Documentation**](./DOCUMENTATION.md) |
+| 📄 **Hardware Technical Report (PDF)** | Official 7-page technical specification and engineering report document | [**View PDF Document**](./AetherBridge%20—%20Technical%20Documentation%20(Aether_100,%20SIH%202026)%20(1).pdf) |
 | 📐 **CAD 3D Enclosure & Enclosure Design** | Complete 3D CAD assembly, STEP/DWG files & mounting chassis for Raspberry Pi + audio interface board | [**Google Drive CAD Link**](https://drive.google.com/file/d/1Ka_F5BRAXkGf56-jew4U-lu_tEWLgjRq/view) |
-| 📄 **Hardware Technical Documentation** | Full 7-page engineering documentation covering circuit schematics, ground-loop math, optocoupler saturation, and RF bench test results | [**View PDF in Repository**](./AetherBridge%20—%20Technical%20Documentation%20(Aether_100,%20SIH%202026).pdf) |
 | 🧠 **ML Model Training Pipeline** | Synthetic & historical hydrograph training script with LSTM and Random Forest export | [`scripts/train_flood_models.py`](./scripts/train_flood_models.py) |
 | 💻 **EOC Operations Web Console** | React 19 + TypeScript + Vite + Tailwind CSS interactive tactical console with oscilloscope, live map, and risk engine | [`src/`](./src/) |
 
@@ -179,7 +180,7 @@ FloodSense transforms raw hydro-meteorological sensor streams into actionable di
 
 ## 📊 Verification & Bench Test Results
 
-As verified during rigorous hardware and RF bench trials (detailed in the [Technical Documentation](./AetherBridge%20—%20Technical%20Documentation%20(Aether_100,%20SIH%202026).pdf)):
+As verified during rigorous hardware and RF bench trials (detailed in the [Technical Documentation](./DOCUMENTATION.md) and [PDF Report](./AetherBridge%20—%20Technical%20Documentation%20(Aether_100,%20SIH%202026)%20(1).pdf)):
 
 | Stage | Verification Test | Expected Standard | Measured / Observed Result | Status |
 | :---: | :--- | :--- | :--- | :---: |
@@ -197,7 +198,10 @@ As verified during rigorous hardware and RF bench trials (detailed in the [Techn
 
 ```tree
 SIH_2026/
-├── AetherBridge — Technical Documentation.pdf  # Comprehensive 7-page engineering report
+├── DOCUMENTATION.md                           # Comprehensive Markdown technical documentation
+├── AetherBridge — Technical Documentation.pdf  # 7-page engineering report PDF
+├── image.png                                  # System architectural infographic & poster
+├── image copy.png                             # Core team members and responsibilities banner
 ├── index.html                                 # HTML5 entry point with viewport config
 ├── package.json                               # Dependencies (React 19, Vite, Leaflet, Tailwind)
 ├── tailwind.config.js                         # Design system styling configuration
@@ -314,6 +318,22 @@ python scripts/train_flood_models.py
 
 ## 💡 Team & Hackathon Credits
 
+[![Team Aether_100 Members & Leads](./image%20copy.png)](./image%20copy.png)
+
+### 👥 Team Members & Roles
+
+| Member Name | Role & Specialization | Subsystem & Key Responsibilities |
+| :--- | :--- | :--- |
+| 👑 **Jay Vishwakarma** *(Leader)* | **Hardware Lead** | Overall project lead, galvanic isolation board design, 2N3904 + PC817 PTT switching circuit & hardware bench validation |
+| 📡 **Ayush Thayyil** | **Communication Lead** | Radio-over-IP (RoIP) audio pipeline, 48 kHz mono frame engine, UDP streaming & network resilience protocols |
+| 📊 **Ayushman Swain** | **PPT Lead** | Project presentation decks, technical diagrams, architectural flowcharts & documentation assets |
+| 🔬 **Nishita Sarma** | **R&D Lead** | Disaster communication literature survey, hydrological telemetry research & CWC 4-tier protocol integration |
+| 🧠 **Anurag Sharma** | **AI/ML Lead** | FloodSense Bi-LSTM & Random Forest hydrological ML engine, model training pipelines & real-time stage inference |
+| 📐 **Ankit Yadav** | **CAD Modelling Lead** | 3D mechanical enclosure modeling, Leaf Node CAD preview, Raspberry Pi + PCB mounting chassis & STEP/DWG exports |
+
+---
+
+### 🏛️ Institution & Mentorship
 * **Event**: Smart India Hackathon (SIH) 2026
 * **Problem Statement**: `SIH26223` (Disaster Management / Hardware)
 * **Team**: **Team Aether_100**
